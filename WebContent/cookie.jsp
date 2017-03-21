@@ -26,6 +26,7 @@
 			cookie.setMaxAge(30);
 			//2.调用response方法把cookie传给客户端
 			response.addCookie(cookie);  
+			login
 		
 		}
 	%>
