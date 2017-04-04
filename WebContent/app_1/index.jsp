@@ -11,7 +11,7 @@
 <body>
 	<%
 		//1.若可以获取到请求参数loginName,则打印欢迎信息，把登录信息存入cookie中，
-		//并设置cookie时限30s
+		//并设置cookie时限30s 的说法是否
 		String name = request.getParameter("name");
 		if (name != null && !name.trim().equals("")) {
 
